@@ -4,15 +4,13 @@
   "description": "nodejs",
   "main": "index.js",
   "scripts": {
-
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
-},
-  
-"author": "yash",
-
+  },
+  "author": "yash",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
   }
 }
